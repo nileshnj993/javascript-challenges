@@ -1,0 +1,26 @@
+.flex-box-container-1{
+    display:flex;
+    padding: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flex-box-container-1 div{
+    display: flex;
+    padding:10px;
+    align-items: center;
+    margin-top: 300px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+#flex-box-result{
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+
+
