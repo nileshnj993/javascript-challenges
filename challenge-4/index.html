@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Change The Color of All Buttons </title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel = "stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class = "container-1">
+            <h1 id = "heading"> Change The Color of All Buttons</h1>
+            <div class = "flex-box-1">
+                <form action="">
+                    <select name="backdrop" id="background" onchange="buttonColorChange(this)">
+                        <option value ="random"> Random</option>
+                        <option value ="red"> Red</option>
+                        <option value ="green"> Green</option>
+                        <option value ="reset"> Reset</option>
+                    </select>
+                </form>
+                
+                <button class = "btn btn-primary"> Eden</button>
+                <button class = "btn btn-danger"> Jeremy Zucker</button>
+                <button class = "btn btn-warning"> NF</button>
+                <button class = "btn btn-success"> The Local Train</button>
+            </div>
+        
+        </div>
+
+
+
+
+        <script src = "script.js"> </script>
+    </body>
+</html>
